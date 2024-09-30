@@ -1,0 +1,13 @@
+.app{
+  padding: 20px 80px;
+  background-color: #03302D;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width:768px) {
+  .app{
+      padding: 20px 30px;
+  }
+}
+

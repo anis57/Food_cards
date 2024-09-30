@@ -1,0 +1,44 @@
+.card-wrapper{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-bottom: 15px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.card-wrapper:hover{
+    transform: scale(110%);
+}
+
+.card-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: brightness(70%);
+}
+
+.name{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.name p{
+    font-weight: 600;
+    color: #fff;
+}
+
+.price{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.price p{
+    background-color: #fff;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
